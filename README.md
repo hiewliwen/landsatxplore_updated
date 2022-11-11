@@ -3,6 +3,14 @@
 [![codecov](https://codecov.io/gh/yannforget/landsatxplore/branch/master/graph/badge.svg?token=NwVo09Edur)](https://codecov.io/gh/yannforget/landsatxplore)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1291422.svg)](https://zenodo.org/record/4543601)
 
+# CHANGES
+
+[EarthExplorer.py](/landsatxplore/earthexplorer.py) has been updated with:
+* Added "DATA_PRODUCTS_II" (line 22-33)
+* Set "ncform" to return None (line 48-59)
+* Added "try-except" statements to use "DATA_PRODUCTS_II" (line 161-169)
+
+
 # Description
 
 ![CLI Demo](https://raw.githubusercontent.com/yannforget/landsatxplore/master/demo.gif?s=0.5)
